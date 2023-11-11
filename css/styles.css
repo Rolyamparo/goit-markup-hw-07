@@ -639,7 +639,7 @@ h2 {
     }
 
 .list-team {
-    display: inline-flex;
+    display: flex;
     padding: 0;
     flex-direction: column;
     list-style-type: none;
@@ -694,10 +694,11 @@ h2 {
 
 .customer-icon {
     border: 2px solid #8e8f99;
-    padding: 16px 32px;
+    padding: 16px 0;
     display: flex;
     text-align: center;
     justify-content: center
+    
 }
 
 .customer-icon svg {
