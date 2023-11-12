@@ -238,12 +238,7 @@ h1 {
     letter-spacing: 1.12px;         
     }
 
-.portfolio-button {
-    margin-left: 410px;
-    margin-right: 362px;
-    margin-top: 96px;
-    margin-bottom: 72px;
-    }
+
 
 button {
     border-radius: 4px;
@@ -319,7 +314,7 @@ button {
 }
 
 .btn-icon {
-color: var(--iris);
+/* color: var(--iris); */
 }
 
 .service-label {
@@ -442,28 +437,7 @@ color: var(--iris);
     cursor: pointer;
 }
 
-.button-1 {
-    display: inline-flex;        
-    color: var(--IRIS, #4D5AE5);
-    text-align: center;       
-    font-family: Roboto;
-    font-size: 16px;        
-    font-weight: 500;
-    line-height: 24px;           
-    letter-spacing: 0.64px;   
-    padding: 12px 24px;
-    margin-left: 12px;
-    margin-right: 12px;   
-    border-radius: 4px;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--CLOUD, #F4F4FD);}
-.button-1:hover {
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: fill 250ms cubic-bezier(0.4, 0.0, 0.2, 1);
-    cursor: pointer;
-       
-    
-}
+
 
 .container {
     /* width: 1440px; */
@@ -479,7 +453,7 @@ color: var(--iris);
     text-align: center;
     background-color: var(--cloud);
     width: 264px;
-    margin: 24px;
+    margin: 24px 0;
     justify-content: center;
 }
 
@@ -500,7 +474,7 @@ color: var(--iris);
     top: 20px;
 }
 
-
+/* Benefits Section */
 .about h3 {
     color: var(--NAVY-BLUE, #2e2f42);
         font-size: 20px;
@@ -513,17 +487,15 @@ color: var(--iris);
 
 ul.benefits {
     text-decoration: none;
-        list-style-type: none;
-        /* padding: 0;
-        margin: 0; */
-      
+    list-style-type: none;              
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     font-size: 20px;
     flex-direction: row;
-    padding-left: auto;
-    padding-right: auto;
+    /* padding-left: auto;
+    padding-right: auto; */
+    flex-wrap: wrap;
     
 }
 .about-gadget {
@@ -543,10 +515,7 @@ ul.benefits {
     background-color: var(--cloud);
 }
 
-.header-container {
-    /* display: flex;
-    align-items: center; */
-}
+
 
 .section {
     padding-top: 120px;
@@ -568,15 +537,8 @@ ul.benefits {
             padding-left: 0;
             display: flex;
             justify-content: center;
-            gap: 30px;
+            /* gap: 30px; */
             flex-wrap: wrap;}
-
-ul.benefits {
-    flex-wrap: wrap;
-    /* align-items: center; */
-    /* justify-content: space-around; */
-    }
-
 
 
     /* SECTION ABOUT STYLING */
@@ -622,11 +584,14 @@ h2 {
     /* TEAM SECTION STYLING */
 
 .team {
-    /* width: 1440px; */
-    /* height: 732px; */
     background: var(--cloud);
 
     }
+
+.team h3 {
+    text-align: center;
+
+}
 
 .team-section {
     text-decoration: none;
@@ -683,10 +648,8 @@ h2 {
 /* CUSTOMER SECTION STYLING */
 
 .customer {
-    display: flex;
-    /* margin-left: 120px; */
-    /* margin-right: 10px; */
-    margin-bottom: 120px;
+    display: flex;    
+    /* margin-bottom: 120px; */
     gap: 16px;
     align-items: center;
     justify-content: space-around;
@@ -721,7 +684,48 @@ h2 {
     fill: var(--iris);
 }
 
+.mobile-menu {
+    text-decoration: none;
+    font-size: 18px;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-left: 0;
+    
+}
+
+
+
 /* PORTFOLIO STYLING */
+
+.portfolio-button {
+    margin-left: 410px;
+    margin-right: 362px;
+    margin-top: 96px;
+    margin-bottom: 72px;
+}
+.button-1 {
+    display: inline-flex;
+    color: var(--IRIS, #4D5AE5);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    padding: 12px 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.button-1:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: fill 250ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    cursor: pointer;
+}
+
 .team-footer {
     margin-top: 0;
     gap: 16px;
@@ -732,8 +736,23 @@ h2 {
 
 }
 
-footer {
+.footer p {
+    text-decoration: none;
+    color: var(--cloud);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+    padding-top: 22px;
+    margin-left: 50px;
+    text-align: left;
+    margin-bottom: 100px;
 
+}
+
+footer {
+    
     text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
@@ -750,8 +769,8 @@ footer {
     text-decoration: none;
     color: var(--white);
     padding-top: 100px;
-    margin-left: 0;
-
+    margin-left: 50px;
+ 
 }
 
 span {
@@ -970,11 +989,12 @@ span.logo-studio-footer {
 .footer-inner {
     display: flex;
     justify-content: space-between;
+    text-align: center;
     flex-wrap: wrap;
     row-gap: 10px;
     background: var(--navy-blue);
     padding-top: 100px;
-    padding-right: 50px;
+    /* padding-right: 50px; */
 }
 
 .footer-text {
@@ -989,42 +1009,19 @@ span.logo-studio-footer {
 .footers {
     display: inline-flex;    
     /* width: 1440px;   */
-
-
 }
 
-.footer p {
-    text-decoration: none;
-    color: var(--cloud);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-      /* 150% */
-    letter-spacing: 0.32px;
-    padding-top: 22px;
-    margin-left: 50px;
-    text-align: left;
-    margin-bottom: 100px;
-      
-           
-    }
-
-        
- 
- .team-footer {
+.team-footer {
      display: flex;
      position:relative;
-     margin-left: 0px;
+     margin-left: 0;
      
  }
- 
- 
+  
 .footer-text-index {
     margin-top: 100px;
 
 }
-
-
 .team-footer-icon {
     background-color: var(--iris);
     border-radius: 50%;
@@ -1058,9 +1055,9 @@ span.logo-studio-footer {
             background: none;
             border-radius: 4px;
             padding: 10px;
-            width: -webkit-fill-available;;
+            width: -webkit-fill-available;
             background-color: none;
-            margin-bottom: 24px;
+            /* margin-bottom: 24px; */
         }
     
         .input-sub::placeholder {
@@ -1090,13 +1087,10 @@ span.logo-studio-footer {
         margin-top: 0;
             color: white;
             text-align: center;
-            
-
         }
 
+        /* MEDIA STYLING */
 
-
-    /* MEDIA STYLING */
         @media (min-width: 428px) {
             .container {
                 width: 428px;
@@ -1181,8 +1175,8 @@ span.logo-studio-footer {
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .about {
-        /* display: none; */
+    .what-we-do {
+        display: none;
     }
 
     .benefits-item h3 {
