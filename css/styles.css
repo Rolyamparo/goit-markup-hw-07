@@ -1265,8 +1265,16 @@ p.footer-text-index {
 
     .js-close-menu {
         position: absolute;
-        top: 10px;
+        top: 25px;
         right: 25px;
+        fill: var(--navy-blue);
+        background-color: var(--white);
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        /* padding-top: 12px;
+        padding-right: 12px; */
+        
     }
 
     .mobile-menu {
@@ -1300,7 +1308,12 @@ p.footer-text-index {
 
     .footer-inner {
         justify-content: center;
+
     }
+        
+                .footer-subscribe-text-index {
+                    text-align: center;
+                }
 }
 @media (max-width: 427px) {
     .hero-text {
@@ -1316,9 +1329,7 @@ p.footer-text-index {
             text-align: center;
             color: var(--cloud);
         }
-                .footer-subscribe-text-index {
-                    text-align: center;
-                }
+                
 }
 
 
