@@ -1240,6 +1240,7 @@ p.footer-text-index {
         }
 
 
+
 @media (min-width: 1200px) {
     .desktop-contacts {
         display: flex;
@@ -1260,7 +1261,7 @@ p.footer-text-index {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .desktop-nav {
         display: none;
     }
@@ -1382,6 +1383,7 @@ p.footer-text-index {
 
     .footer-inner {
         justify-content: center;
+        
 
     }
         
