@@ -1241,6 +1241,101 @@ text-align: left;
         text-align: center;
         color: var(--cloud);
         }
+
+         .mobile-menu.is-open {
+             transform: translateX(0);
+         }
+    
+         .js-close-menu {
+             position: fixed;
+             top: 24px;
+             right: 24px;
+             fill: var(--navy-blue);
+             background-color: var(--white);
+             border-radius: 50%;
+             gap: 16px;
+    
+    
+         }
+    
+         .mobile-tel-contacts {
+             color: var(--iris);
+             list-style-type: none;
+             text-decoration: none;
+             font-size: 36px;
+             padding-top: 284px;
+    
+         }
+    
+         .mobile-contacts {
+             list-style-type: none;
+             text-decoration: none;
+             margin-bottom: 40px;
+         }
+    
+         .mobile-social {
+    
+             list-style-type: none;
+             text-decoration: none;
+    
+         }
+    
+         .mobile-social-email {
+    
+             list-style-type: none;
+             text-decoration: none;
+             margin-top: 40px;
+    
+    
+         }
+    
+         .mobile-social-tel {
+    
+             list-style-type: none;
+             text-decoration: none;
+             margin-top: 284px;
+    
+    
+         }
+    
+         .mobile-social-icon {
+    
+             list-style-type: none;
+             text-decoration: none;
+             margin-bottom: 40px;
+             margin-top: 40px;
+    
+         }
+    
+         .mobile-email-contacts {
+             color: var(--slate);
+             font-size: 20px;
+             text-decoration: none;
+             font-size: 20px;
+             font-weight: 500;
+             line-height: 24px;
+             /* 120% */
+             letter-spacing: 0.4px;
+             margin-bottom: 48px;
+         }
+    
+         .mobile-menu {
+             top: 0;
+             display: block;
+             height: 100vh;
+             width: 100%;
+             position: fixed;
+             background-color: white;
+             transform: translateX(100%);
+             transition: transform 250ms ease-in-out;
+             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+         }
+    
+         .mobile-navbar-modal {
+             height: 796px;
+             width: 100%
+         }
     
     
     .input-sub {
@@ -1276,6 +1371,7 @@ justify-content: center;
 .btn-sub {
 text-align: center;
 justify-content: center;
+margin-top: 10px;
 
 }
 
@@ -1298,6 +1394,11 @@ text-align: center;
 .logo {
     text-align: center;
     justify-content: space-between;
+}
+.footer-social-text {
+    margin-top: 0;
+    color: white;
+    text-align: center;
 }
 
         
@@ -1494,6 +1595,8 @@ p.footer-text-index {
     /* 120% */
     letter-spacing: 0.4px;
     text-align: left;
+
+}
 
 
 
