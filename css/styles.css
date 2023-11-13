@@ -105,7 +105,7 @@
     border-radius: 2px;
     background-color: var(--iris);
     position: relative;
-    top:15px;
+    top: 10px;px;
     
 }
 .contacts {
@@ -1177,6 +1177,7 @@ p.footer-text-index {
     
 .input-sub::placeholder {
     color: white;
+    padding-left: 10px;
     }
     
 .btn-sub {
