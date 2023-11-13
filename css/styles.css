@@ -1366,13 +1366,20 @@ text-align: left;
 p.footer-subscribe-text-index {
 text-align: center;
 justify-content: center;
+margin-right: 20px;
 }
 
 .btn-sub {
 text-align: center;
 justify-content: center;
 margin-top: 10px;
+margin-right: 20px;
 
+}
+
+.input-sub {
+    justify-content: center;
+    margin-right: 20px;
 }
 
 .benefits-item,
@@ -1399,6 +1406,7 @@ text-align: center;
     margin-top: 0;
     color: white;
     text-align: center;
+    margin-right: 0;
 }
 
         
