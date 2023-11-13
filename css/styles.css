@@ -1206,29 +1206,37 @@ p.footer-text-index {
                      text-align: center;
                  }
         }
+
+@media (max-width: 427px) {
+    .hero-text {
+        font-size: 36px;
+        letter-spacing: 0.72px;
+        line-height: 1.11;
+        }
+        
+    .benefits-item h3 {
+        text-align: center;
+        }
+        
+    .mobile-nav .span.logo-studio-nav {
+        text-align: center;
+        color: var(--cloud);
+        }
+        
+}
     
-        @media (min-width: 769px) {
-            /* 768px to 1199px */
+@media (min-width: 769px) {
+    /* 768px to 1199px */
     
-            .container {
-                    width: 769px;
-                }
-            .mobile-nav,
-            .js-close-menu {
-                display: none;
-            }
+    .container {
+        width: 769px;
+        }
+    .mobile-nav,
+    .js-close-menu {
+        display: none;
+         }
     
-             
-            .benefits-item,
-            .team {
-                flex-basis: calc(100% / 2 - 30px);
-            }
-    
-            .customer-icon {
-                flex-basis: calc(100% / 3 - 30px);
-            }
-    
-            .footer-inner {
+    .footer-inner {
                 text-align: center;
             }
     
@@ -1241,29 +1249,11 @@ p.footer-text-index {
 
 
 
-@media (min-width: 1200px) {
-    .desktop-contacts {
-        display: flex;
-        column-gap: 30px;
-    }
 
-    .container {
-        width: 1200px;
-    }
-
-    .benefits-item,
-    .list-team {
-        flex-basis: calc(100% / 4 - 30px);
-    }
-
-    .customer-icon {
-        flex-basis: calc(100% / 6 - 30px);
-    }
-}
 
 @media (max-width: 768px) {
     .desktop-nav {
-        /* display: none; */
+        display: none;
     }
 
     .mobile-menu.is-open {
@@ -1367,9 +1357,18 @@ p.footer-text-index {
     display: none;
     }
 
+.benefits-item,
+.list-team {
+    flex-basis: calc(100% / 2 - 30px);
+    }
+    
+.customer-icon {
+    flex-basis: calc(100% / 3 - 30px);
+    }
+
 .benefits-item h3 {
-    font-size: 36px;
-     margin-bottom: 8px;
+    /* font-size: 36px;
+     margin-bottom: 8px; */
     }
 
 .benefits-item p {
@@ -1381,31 +1380,36 @@ p.footer-text-index {
     }
 
 .footer-inner {
-    justify-content: center;
-    margin-right: 24px;
+    flex-basis: calc(100% / 2 - 30px);
+    /* justify-content: center; */
+    /* margin-right: 24px; */
         
 
     }
         
 .footer-subscribe-text-index {
-    text-align: center;
+    /* text-align: center; */
     }
 }
-@media (max-width: 427px) {
-    .hero-text {
-        font-size: 36px;
-        letter-spacing: 0.72px;
-        line-height: 1.11;
+
+@media (min-width: 1200px) {
+    .desktop-contacts {
+        display: flex;
+        column-gap: 30px;
     }
 
-    .benefits-item h3 {
-        text-align: center;
+    .container {
+        width: 1200px;
     }
-        .mobile-nav .span.logo-studio-nav {
-            text-align: center;
-            color: var(--cloud);
-        }
-                
+
+    .benefits-item,
+    .list-team {
+        flex-basis: calc(100% / 4 - 30px);
+    }
+
+    .customer-icon {
+        flex-basis: calc(100% / 6 - 30px);
+    }
 }
 
 
